@@ -1,5 +1,6 @@
 package com.example.l_homework.ui
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.l_homework.MyApp
@@ -21,6 +22,7 @@ class DataActivity : AppCompatActivity() {
     private fun setupListeners(){
         btn_save.setOnClickListener {
             db?.getEtDao()?.insertEtData(fetchData())
+            startActivity(Intent(applicationContext, MainActivity ::class.java))
         }
     }
 
