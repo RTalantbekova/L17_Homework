@@ -1,7 +1,11 @@
 <resources>
     <string name="app_name">L_Homework</string>
     <string name="new_page">new page</string>
-    <string name="title">Title</string>
+    <string name="login">Enter login</string>
+    <string name="password">Enter password</string>
     <string name="save">Save</string>
-    <string name="desription">Desription</string>
+    <string name="registration">Registration</string>
+    <string name="title">title</string>
+    <string name="desription">description</string>
+
 </resources>
