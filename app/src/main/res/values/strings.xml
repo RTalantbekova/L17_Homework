@@ -3,9 +3,11 @@
     <string name="new_page">new page</string>
     <string name="login">Enter login</string>
     <string name="password">Enter password</string>
-    <string name="save">Save</string>
+    <string name="repeat_pass">Repeat password</string>
+    <string name="log_in">Log in</string>
     <string name="registration">Registration</string>
     <string name="title">title</string>
     <string name="desription">description</string>
+    <string name="save">Save</string>
 
 </resources>
